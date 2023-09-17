@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+    /* display: none; */
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Single User
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h3>{{ single_user.email }}</h3>
+    <img src="{{ single_user.image.url }}" alt="User Image">
+</div>
+{% endblock %}
